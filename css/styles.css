@@ -1,0 +1,34 @@
+header {
+
+	background-color: lavender;
+	color: gray;
+	border: 2px;
+	border-style: solid;
+	border-radius: 10px;
+
+}
+
+.wrapper {
+
+	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+	padding: 30px;
+
+}
+
+.memoryCards {
+
+	height: 150px;
+	width: 120px;
+	border: 2px;
+		border-color: gray;
+		border-style: solid;
+		border-radius: 10px;
+	background-color: lavender;
+
+
+}
