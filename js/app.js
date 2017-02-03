@@ -1,8 +1,19 @@
 console.log ("app.js linked!"); 
 
+function turnCard(id) {
+	console.log("clicked", id);
+	document.getElementById(id).style.transform = 'rotateY(180deg)';
+	
 
-function flip () {
+	if (document.getElementById(id).style.transform === 'rotateY(180deg)'){
 
-	document.getElementById('flipper').style='rotateY(180deg)';
+		setTimeout(function() {
+
+			document.getElementById(id).style.transform = 'rotateY(0deg)';
+			
+		},1000);
+
+	}
+	console.log("Fast ya?");
 
 }
