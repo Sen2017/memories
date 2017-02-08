@@ -19,6 +19,7 @@ header {
 	background-color: lavender;
 
 
+
 }
 
 .wrapper {
@@ -29,6 +30,6 @@ header {
 		flex-flow: row wrap;
 		justify-content: space-between;
 		align-items: center;
-	padding: 30px;*/
+	padding: 30px;
 
 }
