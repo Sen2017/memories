@@ -24,7 +24,6 @@ img {
 		border-color: gray;
 		border-style: solid;
 		border-radius: 10px;
-	backface-visibility: hidden;
 
 }
 
@@ -37,5 +36,9 @@ img {
 		justify-content: space-between;
 		align-items: center;
 	padding: 30px;
+	perspective: 1000px;
 
+}
+
+.memoryCards {
 }

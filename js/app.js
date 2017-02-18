@@ -11,7 +11,7 @@ function turnCard(id) {
 
 			document.getElementById(id).style.transform = 'rotateY(0deg)';
 			
-		},2000);
+		},1000);
 
 	}
 	console.log("end");
