@@ -11,9 +11,9 @@ function turnCard(id) {
 
 			document.getElementById(id).style.transform = 'rotateY(0deg)';
 			
-		},1000);
+		},2000);
 
 	}
-	console.log("Fast ya?");
+	console.log("end");
 
 }

@@ -8,17 +8,16 @@ header {
 
 }
 
-.cards {
+img {
 
+	flex-basis: auto;		
 	height: 150px;
 	width: 120px;
 	border: 2px;
 		border-color: gray;
 		border-style: solid;
 		border-radius: 10px;
-	background-color: lavender;
-
-
+	backface-visibility: hidden;
 
 }
 
