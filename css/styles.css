@@ -1,22 +1,16 @@
 body {
-
 	background-color: black;
-
 }
 
-
 header {
-
 	background-color: lavender;
 	color: gray;
 	border: 2px;
 	border-style: solid;
 	border-radius: 10px;
-
 }
 
 img {
-
 	flex-basis: auto;		
 	height: 150px;
 	width: 120px;
@@ -24,11 +18,9 @@ img {
 		border-color: gray;
 		border-style: solid;
 		border-radius: 10px;
-
 }
 
 .wrapper {
-
 	display: flex;
 	display: -webkit-flex;
 		flex-direction: row;
@@ -37,8 +29,19 @@ img {
 		align-items: center;
 	padding: 30px;
 	perspective: 1000px;
-
+	position: relative;
 }
 
 .memoryCards {
+	position: absolute;
+	transform-style: preserve-3d;
+  	transition: transform 1s;
+}
+
+.back {
+	transform: rotateY( 180deg );
+}
+
+.memoryCards.flipped {
+	transform: rotateY( 180deg );
 }
